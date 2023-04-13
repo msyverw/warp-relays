@@ -1,35 +1,13 @@
 {
-	"condition": "minecraft:inverted",
-	"term": {
-	  "condition": "minecraft:alternative",
-	  "terms": [
-		{
-		  "condition": "minecraft:inverted",
-		  "term": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "nbt": "{OnGround:1b}"
-			}
-		  }
-		},
-		{
-		  "condition": "minecraft:inverted",
-		  "term": {
-			"condition": "minecraft:alternative",
-			"terms": [
-			  {
-				"condition": "minecraft:reference",
-				"name": "warp_relay:orient1"
-			  },
-			  {
-				"condition": "minecraft:reference",
-				"name": "warp_relay:orient2"
-			  }
-			]
-		  }
-		}
-	  ]
-	}
-  }
-  
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "warp_relay:classic_relay"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "warp_relay:super_relay"
+    }
+  ]
+}

@@ -1,5 +1,3 @@
 {
-	"values": [
-		"warp_relay:relay/tick"
-	]
+  "values": ["warp_relay:misc/tick"]
 }

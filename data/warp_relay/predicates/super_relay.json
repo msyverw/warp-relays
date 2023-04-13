@@ -1,0 +1,53 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "stepping_on": {
+        "block": {
+          "blocks": ["minecraft:netherite_block"]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": ["minecraft:diamond_block"]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": ["minecraft:diamond_block"]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": ["minecraft:diamond_block"]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": ["minecraft:diamond_block"]
+      }
+    }
+  }
+]

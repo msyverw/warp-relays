@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "stepping_on": {
+        "block": {
+          "blocks": ["minecraft:diamond_block"]
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "warp_relay:classic_orient1"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "warp_relay:classic_orient2"
+      }
+    ]
+  }
+]

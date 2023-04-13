@@ -1,5 +1,3 @@
 {
-	"values": [
-		"warp_relay:relay/load"
-	]
+  "values": ["warp_relay:misc/load"]
 }
