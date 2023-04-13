@@ -11,6 +11,8 @@ data remove storage warp_relay:config set
 data remove storage warp_relay:loading marked
 data remove storage warp_relay:tp same_dimension
 
-datapack disable "file/Warp Relays 1.1"
-datapack disable "file/Warp Relays 1.1.zip"
-tellraw @a {"text":"Warp Relays 1.1 successfully uninstalled!","color":"green"}
+execute store success storage warp_relay:uninstall success byte 1 run datapack disable "file/warp-relays-1.1"
+execute if data storage warp_relay:uninstall {success: true} run tellraw @a {"text":"Warp Relays 1.1 was successfully uninstalled!","color":"green"}
+execute if data storage warp_relay:uninstall {success: false} run tellraw @a {"text":"Unable to disable Warp Relays 1.1","color":"red"}
+
+data remove storage warp_relay:uninstall success

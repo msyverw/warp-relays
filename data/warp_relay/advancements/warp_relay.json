@@ -1,17 +1,17 @@
 {
-    "display": {
-        "title": "Warp Relays",
-        "description": "Create Warp Relay structures to instantly teleport between them",
-        "icon": {
-            "item": "minecraft:ender_pearl"
-        },
-        "announce_to_chat": false,
-        "show_toast": false
+  "display": {
+    "title": "Warp Relays",
+    "description": "Create Warp Relay structures to instantly teleport between them. Use '/trigger warp_relays' for more info.",
+    "icon": {
+      "item": "minecraft:ender_pearl"
     },
-    "parent": "global:msyverw",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:tick"
-        }
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:msyverw",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
     }
+  }
 }
