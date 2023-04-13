@@ -24,5 +24,5 @@ execute if score #DELETION WR.timer >= DELETION_PERIOD WR.config run function wa
 
 #Trigger stuff
 scoreboard players enable @a warp_relays
-execute as @a[scores={warp_relays=1..}] run function warp_relay:relay/trigger
+execute as @a[scores={warp_relays=1..}] run function warp_relay:misc/trigger
 scoreboard players set @a warp_relays 0

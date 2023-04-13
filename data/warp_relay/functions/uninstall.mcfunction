@@ -4,7 +4,7 @@ scoreboard objectives remove WR.config
 scoreboard objectives remove WR.timer
 
 #Remove Warp Relays
-execute at @e[type=minecraft:area_effect_cloud,tag=WR.warp] run function warp_relay:forceload/remove
+execute at @e[type=minecraft:area_effect_cloud,tag=WR.warp] run function warp_relay:relay/forceload/remove
 kill @e[type=minecraft:area_effect_cloud,tag=WR.warp]
 
 data remove storage warp_relay:config set
