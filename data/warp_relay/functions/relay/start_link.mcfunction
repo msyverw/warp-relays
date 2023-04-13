@@ -7,4 +7,4 @@ execute if score MAX_DISTANCE WR.config matches 5001..10000 if entity @s[distanc
 execute if score MAX_DISTANCE WR.config matches 10001.. run function warp_relay:relay/link
 
 #Distance too far
-execute unless score @p WR.index matches -1 run function warp_relay:relay/link_failed
+execute unless score @p WR.index matches -1 run function warp_relay:relay/link_failed_by_distance
