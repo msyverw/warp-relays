@@ -1,2 +1,3 @@
-# warp-pads
- Adds Warp Pads to Minecraft
+# warp-relay
+
+Adds Warp Relays to Minecraft

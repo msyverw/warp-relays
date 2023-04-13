@@ -1,3 +1,4 @@
+scoreboard objectives remove warp_relays
 scoreboard objectives remove WR.index
 scoreboard objectives remove WR.config
 scoreboard objectives remove WR.timer
@@ -10,6 +11,6 @@ data remove storage warp_relay:config set
 data remove storage warp_relay:loading marked
 data remove storage warp_relay:tp same_dimension
 
-datapack disable "file/Warp Relays 1.19"
-datapack disable "file/Warp Relays 1.19.zip"
+datapack disable "file/Warp Relays 1.1"
+datapack disable "file/Warp Relays 1.1.zip"
 tellraw @a {"text":"Warp Relays successfully uninstalled!","color":"green"}

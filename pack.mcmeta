@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 10,
-		"description": "Allows you to create Warp Relays in your world"
-	}
+  "pack": {
+    "pack_format": 13,
+    "description": "Allows you to create Warp Relays in your world"
+  }
 }
