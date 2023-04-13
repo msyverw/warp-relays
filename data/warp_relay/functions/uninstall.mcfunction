@@ -13,4 +13,4 @@ data remove storage warp_relay:tp same_dimension
 
 datapack disable "file/Warp Relays 1.1"
 datapack disable "file/Warp Relays 1.1.zip"
-tellraw @a {"text":"Warp Relays successfully uninstalled!","color":"green"}
+tellraw @a {"text":"Warp Relays 1.1 successfully uninstalled!","color":"green"}
