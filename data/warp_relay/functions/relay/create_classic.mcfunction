@@ -1,5 +1,5 @@
 #Summon Marker
-execute align xyz run summon minecraft:area_effect_cloud ~.5 ~ ~.5 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["WR.warp", "WR.linking", "global.ignore"], OnGround: 1b}
+execute align xyz run summon minecraft:area_effect_cloud ~.5 ~ ~.5 {Age: -2147483648, Duration: -1, WaitTime: -2147483648, Tags: ["WR.warp", "WR.linking", "global.ignore", "global.forceload"], OnGround: 1b}
 function warp_relay:relay/forceload/add
 
 #If first linking relay exists, create link
