@@ -1,6 +1,6 @@
 #If player is on valid structure, create relay
 scoreboard players add #CREATION WR.timer 1
-execute if score #CREATION WR.timer >= CREATION_PERIOD WR.config as @a[tag=!WR.cooldown,predicate=warp_relay:valid_relay,tag=!global.ignore] at @s unless entity @e[type=minecraft:area_effect_cloud,tag=WR.warp,distance=..3] run function warp_relay:relay/create
+execute if score #CREATION WR.timer >= CREATION_PERIOD WR.config as @a[tag=!WR.cooldown,tag=!global.ignore,predicate=warp_relay:valid_relay] at @s unless entity @e[type=minecraft:area_effect_cloud,tag=WR.warp,distance=..3] run function warp_relay:relay/create
 
 #Teleport players
 execute at @e[type=minecraft:area_effect_cloud,tag=WR.warp,tag=!WR.linking] as @a[tag=!WR.cooldown,tag=!global.ignore,tag=!global.ignore.pos,distance=..1,predicate=warp_relay:valid_relay] at @s run function warp_relay:relay/tp
