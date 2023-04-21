@@ -6,8 +6,6 @@ scoreboard objectives remove WR.math
 
 #Remove Warp Relays
 execute as @e[type=minecraft:area_effect_cloud,tag=WR.warp] at @s run function warp_relay:relay/forceload/remove
-#Probably not necessary anymore, but left in just in case
-kill @e[type=minecraft:area_effect_cloud,tag=WR.warp]
 
 data remove storage warp_relay:config set
 data remove storage warp_relay:loading marked
