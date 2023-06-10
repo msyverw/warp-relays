@@ -2,9 +2,9 @@
 execute as @e[type=minecraft:area_effect_cloud,tag=WR.warp] at @s run function warp_relay:relay/forceload/remove
 
 # Disable datapack
-execute store success storage warp_relay:uninstall success byte 1 run datapack disable "file/warp-relays-1.1"
-execute if data storage warp_relay:uninstall {success: true} run tellraw @a {"text":"Warp Relays 1.1 was successfully uninstalled!","color":"green"}
-execute if data storage warp_relay:uninstall {success: false} run tellraw @a {"text":"Unable to disable Warp Relays 1.1","color":"red"}
+execute store success storage warp_relay:uninstall success byte 1 run datapack disable "file/WarpRelays-v1.1.2.zip"
+execute if data storage warp_relay:uninstall {success: true} run tellraw @a {"text":"Warp Relays 1.1.2 was successfully uninstalled!","color":"green"}
+execute if data storage warp_relay:uninstall {success: false} run tellraw @a {"text":"Unable to disable Warp Relays 1.1.2","color":"red"}
 
 # Remove scoreboard objectives
 scoreboard objectives remove warp_relays
