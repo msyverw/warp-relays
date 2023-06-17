@@ -13,8 +13,11 @@ tellraw @s {"text":"Then when you activate a second one, they will automatically
 execute if score MAX_DISTANCE WR.config matches 1..10000 run tellraw @s {"text":"However, they can only link up to a distance of"}
 execute if score MAX_DISTANCE WR.config matches 1..500 run tellraw @s [{"text": "500 blocks","color":"red"},{"text":".","color":"white"}]
 execute if score MAX_DISTANCE WR.config matches 501..1000 run tellraw @s [{"text": "1000 blocks","color":"red"},{"text":".","color":"white"}]
-execute if score MAX_DISTANCE WR.config matches 1001..5000 run tellraw @s [{"text": "5000 blocks","color":"red"},{"text":".","color":"white"}]
-execute if score MAX_DISTANCE WR.config matches 5001..10000 run tellraw @s [{"text": "10000 blocks","color":"red"},{"text":".","color":"white"}]
+execute if score MAX_DISTANCE WR.config matches 1001..1500 run tellraw @s [{"text": "1500 blocks","color":"red"},{"text":".","color":"white"}]
+execute if score MAX_DISTANCE WR.config matches 1501..2500 run tellraw @s [{"text": "2500 blocks","color":"red"},{"text":".","color":"white"}]
+execute if score MAX_DISTANCE WR.config matches 2501..5000 run tellraw @s [{"text": "5000 blocks","color":"red"},{"text":".","color":"white"}]
+execute if score MAX_DISTANCE WR.config matches 5001..7500 run tellraw @s [{"text": "7500 blocks","color":"red"},{"text":".","color":"white"}]
+execute if score MAX_DISTANCE WR.config matches 7501..10000 run tellraw @s [{"text": "10000 blocks","color":"red"},{"text":".","color":"white"}]
 
 execute if score MAX_DISTANCE WR.config matches ..-1 run tellraw @s [{"text":"Even better, they can link\n"},{"text":"across dimensions","color":"red"},{"text":"!","color":"white"}]
 
