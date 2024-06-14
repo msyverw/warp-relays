@@ -5,7 +5,7 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:emerald_block"]
+        "blocks": "minecraft:emerald_block"
       }
     }
   },
@@ -15,7 +15,7 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:emerald_block"]
+        "blocks": "minecraft:emerald_block"
       }
     }
   },
@@ -25,7 +25,7 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:gold_block"]
+        "blocks": "minecraft:gold_block"
       }
     }
   },
@@ -35,7 +35,7 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:gold_block"]
+        "blocks": "minecraft:gold_block"
       }
     }
   }

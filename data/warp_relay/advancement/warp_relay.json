@@ -1,18 +1,23 @@
 {
   "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
     "title": "Warp Relays",
     "description": [
       {
         "text": "Create Warp Relay structures to instantly teleport between them. Use "
       },
-      { "text": "/trigger warp_relays", "color": "light_purple" },
-      { "text": " for more info." }
+      {
+        "text": "/trigger warp_relays",
+        "color": "light_purple"
+      },
+      {
+        "text": " for more info."
+      }
     ],
-    "icon": {
-      "item": "minecraft:ender_pearl"
-    },
-    "announce_to_chat": false,
-    "show_toast": false
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "parent": "global:msyverw",
   "criteria": {
