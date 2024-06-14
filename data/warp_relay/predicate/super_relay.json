@@ -1,21 +1,12 @@
 [
   {
-    "condition": "minecraft:location_check",
-    "offsetY": -1,
-    "offsetZ": 1,
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
     "predicate": {
-      "block": {
-        "blocks": ["minecraft:emerald_block"]
-      }
-    }
-  },
-  {
-    "condition": "minecraft:location_check",
-    "offsetY": -1,
-    "offsetZ": -1,
-    "predicate": {
-      "block": {
-        "blocks": ["minecraft:emerald_block"]
+      "stepping_on": {
+        "block": {
+          "blocks": "minecraft:netherite_block"
+        }
       }
     }
   },
@@ -25,7 +16,7 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:gold_block"]
+        "blocks": "minecraft:diamond_block"
       }
     }
   },
@@ -35,7 +26,27 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "blocks": ["minecraft:gold_block"]
+        "blocks": "minecraft:diamond_block"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:diamond_block"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:diamond_block"
       }
     }
   }

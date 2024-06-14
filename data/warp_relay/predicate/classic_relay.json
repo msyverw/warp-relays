@@ -5,7 +5,7 @@
     "predicate": {
       "stepping_on": {
         "block": {
-          "blocks": ["minecraft:diamond_block"]
+          "blocks": "minecraft:diamond_block"
         }
       }
     }
